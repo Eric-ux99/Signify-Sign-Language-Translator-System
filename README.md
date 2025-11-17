@@ -19,8 +19,3 @@ Signify is a real-time sign language translator that converts hand gestures into
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the app: `python main.py`
 
-## Demo
-Coming soon!
-
-## License
-MIT
