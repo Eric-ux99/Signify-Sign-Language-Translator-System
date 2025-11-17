@@ -1,21 +1,28 @@
-# Signify: Sign Language Translation System
+# Signify: Real-Time Sign Language Detection System
 
-Signify is a real-time sign language translator that converts hand gestures into readable text. It uses computer vision and machine learning to bridge communication gaps for the hearing-impaired.
+Signify is a desktop-based application designed to bridge communication gaps between mute and hearing communities. It uses computer vision and deep learning to detect and translate sign language gestures into readable text in real time.
 
-## Features
-- Real-time gesture recognition
-- Custom gesture training
-- PyQt-based user interface
+## 🧠 Motivation
 
-## Technologies
-- Python
-- OpenCV
-- MediaPipe
-- TensorFlow/Keras
-- PyQt
+Despite technological advancements, mute individuals still face barriers in social, educational, and professional settings. Signify aims to provide an inclusive solution by enabling seamless communication through gesture recognition.
 
-## How to Run
-1. Clone the repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `python main.py`
+## 🚀 Features
 
+- Real-time gesture detection using webcam input
+- Custom gesture training for vocabulary expansion
+- PyQt-based user interface for intuitive interaction
+- Continuous learning to improve recognition accuracy
+- Compatibility with standard desktop environments
+
+## 🛠️ Tech Stack
+
+- **Programming Language:** Python
+- **Libraries & Frameworks:** OpenCV, MediaPipe, TensorFlow/Keras, PyQt
+- **Tools:** Google Teachable Machine, NumPy
+
+## 📊 System Architecture
+The system consists of:
+- Gesture Detection Module (MediaPipe + OpenCV)
+- Prediction Engine (TensorFlow/Keras)
+- User Interface (PyQt)
+- Training Module (Teachable Machine integration)
